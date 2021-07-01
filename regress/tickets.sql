@@ -843,7 +843,6 @@ SELECT '#2692b', ST_AsText(st_collect(g)) FROM v;
 WITH v AS ( SELECT 'TRIANGLE((0 0, 1 1, 1 0, 0 0))'::geometry AS g FROM generate_series(1,3) )
 SELECT '#2692c', ST_AsText(st_collect(g)) FROM v;
 
-
 SELECT '#2704', ST_AsText(ST_GeomFromGML('<?xml version="1.0"?>
 <gml:Polygon xmlns:gml="http://www.opengis.net/gml/3.2"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -1017,7 +1016,7 @@ SELECT '#3627a', ST_AsEncodedPolyline('SRID=4326;LINESTRING(-0.250691 49.283048,
 SELECT '#3627b', ST_Equals(geom, ST_LineFromEncodedPolyline(ST_AsEncodedPolyline(geom, 7), 7)) FROM (VALUES ('SRID=4326;LINESTRING (0 0, 1 1)')) AS v (geom);
 
 -- #3704
-SELECT '#3704', ST_AsX3D('LINESTRING EMPTY') = '';
+SELECT '#3704', ST_AsX3D('LINESTRING EMPTY') IS NOT NULL;
 
 -- #3709
 select '#3709', ST_SnapToGrid(ST_Project('SRID=4326;POINT(1 1)'::geography, 100000, 20)::geometry, 0.0001) = ST_SnapToGrid(ST_Project('SRID=4326;POINT(1 1)'::geography, -100000, 20+pi())::geometry, 0.0001);

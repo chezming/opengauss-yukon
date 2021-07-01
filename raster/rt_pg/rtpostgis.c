@@ -587,7 +587,7 @@ _PG_init_gdal(void) {
 
 void
 _PG_init(void) {
-	_PG_init_gdal();
+	//_PG_init_gdal();
 }
 
 
@@ -595,6 +595,7 @@ _PG_init(void) {
 void
 _PG_fini(void) {
 
+#if 0
 	MemoryContext old_context;
 
 	old_context = MemoryContextSwitchTo(TopMemoryContext);
@@ -613,6 +614,8 @@ _PG_fini(void) {
 
 	/* Revert back to old context */
 	MemoryContextSwitchTo(old_context);
+
+#endif
 }
 
 
