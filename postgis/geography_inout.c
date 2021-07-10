@@ -33,6 +33,8 @@
 #include <stdio.h>
 #include <errno.h>
 
+#include <err.h>
+
 #include "liblwgeom.h"         /* For standard geometry types. */
 #include "lwgeom_pg.h"       /* For debugging macros. */
 #include "geography.h"	     /* For utility functions. */
