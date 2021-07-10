@@ -26,7 +26,7 @@
 
 #include "liblwgeom_internal.h"
 #include "bytebuffer.h"
-
+#include "err.h"
 /**
 * Allocate a new bytebuffer_t. Use bytebuffer_destroy to free.
 */
