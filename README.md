@@ -1,7 +1,7 @@
 # 适配openGauss 2.1 + PostGIS 3.2
 
 ## 当前进展
-postgis模块已适配；其它模块暂未适配
+postgis模块已适配,其它模块暂未适配
 
 ### 遗留的问题：
 
