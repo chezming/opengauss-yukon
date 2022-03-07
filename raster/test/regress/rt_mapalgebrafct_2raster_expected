@@ -35,6 +35,24 @@ NOTICE:  The FIRST raster is NULL.  Returning NULL
 NOTICE:  The FIRST raster is NULL.  Returning NULL
 NOTICE:  The FIRST raster is NULL.  Returning NULL
 NOTICE:  The two rasters provided are NULL.  Returning NULL
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
+NOTICE:  Function provided is VOLATILE. Unless required and for best performance, function should be IMMUTABLE or STABLE
 NOTICE:  The SECOND raster is NULL.  Returning NULL
 NOTICE:  The SECOND raster is NULL.  Returning NULL
 NOTICE:  The SECOND raster is NULL.  Returning NULL
@@ -47,90 +65,68 @@ NOTICE:  The SECOND raster is NULL.  Returning NULL
 NOTICE:  The SECOND raster is NULL.  Returning NULL
 NOTICE:  The two rasters provided are NULL.  Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
+NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
-NOTICE:  Raster provided has no bands
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
-NOTICE:  Raster provided has no bands
 NOTICE:  Raster provided has no bands
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
 NOTICE:  Could not find raster band of index 1 when getting pixel value. Returning NULL
