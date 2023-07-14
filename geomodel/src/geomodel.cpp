@@ -2,7 +2,7 @@
  *
  * geomodel.c
  *
- * Copyright (C) 2021 SuperMap Software Co., Ltd.
+ * Copyright (C) 2023 SuperMap Software Co., Ltd.
  *
  * Yukon is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -403,7 +403,17 @@ Datum make_skeleton_from_tin(PG_FUNCTION_ARGS)
   YkIndexPackage *pIndexData = new YkIndexPackage();
 
   LWCOLLECTION *col = lwgeom_as_lwcollection(geom);
-  LWCOLLECTION *g1 = lwgeom_as_lwcollection(col->geoms[0]);
+  if (col == nullptr)
+	{
+		elog(ERROR, "TIN is not valid!");
+		PG_RETURN_NULL();
+	}
+	LWCOLLECTION *g1 = lwgeom_as_lwcollection(col->geoms[0]);
+	if (g1 == nullptr)
+	{
+		elog(ERROR, "TIN is not valid!");
+		PG_RETURN_NULL();
+	}
   LWTIN *item = lwgeom_as_lwtin(g1->geoms[0]);
 
   //数据填充

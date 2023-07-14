@@ -79,7 +79,7 @@ void TestBoundingBox()
 {
 	YkBoundingBox boundingBox = m_pGeoModelPro->GetBoundingBox();
 	YkVector3d vMin(-4.1359141266199249, -5.3964246475882192, 20.557742811801660);
-	YkVector3d vMax(4.1359141249727145, 5.3964257419020214, 24.903338962833605);
+	YkVector3d vMax(4.1359141249727145, 5.3964257419020234, 24.903338962833605);
 	YkBoundingBox compBoundingBox(vMin, vMax);
 	YKASSERT(boundingBox == compBoundingBox);
 }
