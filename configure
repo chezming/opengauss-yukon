@@ -20560,7 +20560,7 @@ if test "${with_protobufdir+set}" = set; then :
 			if test "x$withval" = "xyes"; then
 				as_fn_error $? "you must specify a parameter to --with-protobufdir, e.g. --with-protobufdir=/usr/local" "$LINENO" 5
 			else
-				PROTOBUF_LDFLAGS="-L$withval/lib";
+				PROTOBUF_LDFLAGS="-L$withval/lib -lprotobuf-c";
 				PROTOBUF_CPPFLAGS="-I$withval/include"
 			fi
 
@@ -20580,7 +20580,7 @@ fi
 # Check whether --with-protobuf-lib was given.
 if test "${with_protobuf_lib+set}" = set; then :
   withval=$with_protobuf_lib;
-			PROTOBUF_LDFLAGS="-L$withval"
+			PROTOBUF_LDFLAGS="-L$withval -lprotobuf-c"
 
 fi
 
